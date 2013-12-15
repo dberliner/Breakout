@@ -1,0 +1,77 @@
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/svn/fa13-cs242/!svn/ver/11865/dberli2/Final2/SFML-2.1/include/SFML/Window
+END
+Context.hpp
+K 25
+svn:wc:ra_dav:version-url
+V 86
+/svn/fa13-cs242/!svn/ver/11865/dberli2/Final2/SFML-2.1/include/SFML/Window/Context.hpp
+END
+ContextSettings.hpp
+K 25
+svn:wc:ra_dav:version-url
+V 94
+/svn/fa13-cs242/!svn/ver/11865/dberli2/Final2/SFML-2.1/include/SFML/Window/ContextSettings.hpp
+END
+Window.hpp
+K 25
+svn:wc:ra_dav:version-url
+V 85
+/svn/fa13-cs242/!svn/ver/11865/dberli2/Final2/SFML-2.1/include/SFML/Window/Window.hpp
+END
+Mouse.hpp
+K 25
+svn:wc:ra_dav:version-url
+V 84
+/svn/fa13-cs242/!svn/ver/11865/dberli2/Final2/SFML-2.1/include/SFML/Window/Mouse.hpp
+END
+WindowStyle.hpp
+K 25
+svn:wc:ra_dav:version-url
+V 90
+/svn/fa13-cs242/!svn/ver/11865/dberli2/Final2/SFML-2.1/include/SFML/Window/WindowStyle.hpp
+END
+GlResource.hpp
+K 25
+svn:wc:ra_dav:version-url
+V 89
+/svn/fa13-cs242/!svn/ver/11865/dberli2/Final2/SFML-2.1/include/SFML/Window/GlResource.hpp
+END
+VideoMode.hpp
+K 25
+svn:wc:ra_dav:version-url
+V 88
+/svn/fa13-cs242/!svn/ver/11865/dberli2/Final2/SFML-2.1/include/SFML/Window/VideoMode.hpp
+END
+Joystick.hpp
+K 25
+svn:wc:ra_dav:version-url
+V 87
+/svn/fa13-cs242/!svn/ver/11865/dberli2/Final2/SFML-2.1/include/SFML/Window/Joystick.hpp
+END
+Keyboard.hpp
+K 25
+svn:wc:ra_dav:version-url
+V 87
+/svn/fa13-cs242/!svn/ver/11865/dberli2/Final2/SFML-2.1/include/SFML/Window/Keyboard.hpp
+END
+Event.hpp
+K 25
+svn:wc:ra_dav:version-url
+V 84
+/svn/fa13-cs242/!svn/ver/11865/dberli2/Final2/SFML-2.1/include/SFML/Window/Event.hpp
+END
+Export.hpp
+K 25
+svn:wc:ra_dav:version-url
+V 85
+/svn/fa13-cs242/!svn/ver/11865/dberli2/Final2/SFML-2.1/include/SFML/Window/Export.hpp
+END
+WindowHandle.hpp
+K 25
+svn:wc:ra_dav:version-url
+V 91
+/svn/fa13-cs242/!svn/ver/11865/dberli2/Final2/SFML-2.1/include/SFML/Window/WindowHandle.hpp
+END

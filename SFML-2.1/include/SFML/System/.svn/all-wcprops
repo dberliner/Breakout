@@ -1,0 +1,131 @@
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/svn/fa13-cs242/!svn/ver/11865/dberli2/Final2/SFML-2.1/include/SFML/System
+END
+String.hpp
+K 25
+svn:wc:ra_dav:version-url
+V 85
+/svn/fa13-cs242/!svn/ver/11865/dberli2/Final2/SFML-2.1/include/SFML/System/String.hpp
+END
+Thread.hpp
+K 25
+svn:wc:ra_dav:version-url
+V 85
+/svn/fa13-cs242/!svn/ver/11865/dberli2/Final2/SFML-2.1/include/SFML/System/Thread.hpp
+END
+ThreadLocalPtr.hpp
+K 25
+svn:wc:ra_dav:version-url
+V 93
+/svn/fa13-cs242/!svn/ver/11865/dberli2/Final2/SFML-2.1/include/SFML/System/ThreadLocalPtr.hpp
+END
+Sleep.hpp
+K 25
+svn:wc:ra_dav:version-url
+V 84
+/svn/fa13-cs242/!svn/ver/11865/dberli2/Final2/SFML-2.1/include/SFML/System/Sleep.hpp
+END
+NonCopyable.hpp
+K 25
+svn:wc:ra_dav:version-url
+V 90
+/svn/fa13-cs242/!svn/ver/11865/dberli2/Final2/SFML-2.1/include/SFML/System/NonCopyable.hpp
+END
+InputStream.hpp
+K 25
+svn:wc:ra_dav:version-url
+V 90
+/svn/fa13-cs242/!svn/ver/11865/dberli2/Final2/SFML-2.1/include/SFML/System/InputStream.hpp
+END
+Vector2.inl
+K 25
+svn:wc:ra_dav:version-url
+V 86
+/svn/fa13-cs242/!svn/ver/11865/dberli2/Final2/SFML-2.1/include/SFML/System/Vector2.inl
+END
+Vector3.inl
+K 25
+svn:wc:ra_dav:version-url
+V 86
+/svn/fa13-cs242/!svn/ver/11865/dberli2/Final2/SFML-2.1/include/SFML/System/Vector3.inl
+END
+Export.hpp
+K 25
+svn:wc:ra_dav:version-url
+V 85
+/svn/fa13-cs242/!svn/ver/11865/dberli2/Final2/SFML-2.1/include/SFML/System/Export.hpp
+END
+ThreadLocal.hpp
+K 25
+svn:wc:ra_dav:version-url
+V 90
+/svn/fa13-cs242/!svn/ver/11865/dberli2/Final2/SFML-2.1/include/SFML/System/ThreadLocal.hpp
+END
+Vector2.hpp
+K 25
+svn:wc:ra_dav:version-url
+V 86
+/svn/fa13-cs242/!svn/ver/11865/dberli2/Final2/SFML-2.1/include/SFML/System/Vector2.hpp
+END
+Vector3.hpp
+K 25
+svn:wc:ra_dav:version-url
+V 86
+/svn/fa13-cs242/!svn/ver/11865/dberli2/Final2/SFML-2.1/include/SFML/System/Vector3.hpp
+END
+Lock.hpp
+K 25
+svn:wc:ra_dav:version-url
+V 83
+/svn/fa13-cs242/!svn/ver/11865/dberli2/Final2/SFML-2.1/include/SFML/System/Lock.hpp
+END
+Err.hpp
+K 25
+svn:wc:ra_dav:version-url
+V 82
+/svn/fa13-cs242/!svn/ver/11865/dberli2/Final2/SFML-2.1/include/SFML/System/Err.hpp
+END
+Utf.inl
+K 25
+svn:wc:ra_dav:version-url
+V 82
+/svn/fa13-cs242/!svn/ver/11865/dberli2/Final2/SFML-2.1/include/SFML/System/Utf.inl
+END
+Clock.hpp
+K 25
+svn:wc:ra_dav:version-url
+V 84
+/svn/fa13-cs242/!svn/ver/11865/dberli2/Final2/SFML-2.1/include/SFML/System/Clock.hpp
+END
+Utf.hpp
+K 25
+svn:wc:ra_dav:version-url
+V 82
+/svn/fa13-cs242/!svn/ver/11865/dberli2/Final2/SFML-2.1/include/SFML/System/Utf.hpp
+END
+Time.hpp
+K 25
+svn:wc:ra_dav:version-url
+V 83
+/svn/fa13-cs242/!svn/ver/11865/dberli2/Final2/SFML-2.1/include/SFML/System/Time.hpp
+END
+Thread.inl
+K 25
+svn:wc:ra_dav:version-url
+V 85
+/svn/fa13-cs242/!svn/ver/11865/dberli2/Final2/SFML-2.1/include/SFML/System/Thread.inl
+END
+Mutex.hpp
+K 25
+svn:wc:ra_dav:version-url
+V 84
+/svn/fa13-cs242/!svn/ver/11865/dberli2/Final2/SFML-2.1/include/SFML/System/Mutex.hpp
+END
+ThreadLocalPtr.inl
+K 25
+svn:wc:ra_dav:version-url
+V 93
+/svn/fa13-cs242/!svn/ver/11865/dberli2/Final2/SFML-2.1/include/SFML/System/ThreadLocalPtr.inl
+END

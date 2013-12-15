@@ -1,0 +1,167 @@
+K 25
+svn:wc:ra_dav:version-url
+V 76
+/svn/fa13-cs242/!svn/ver/11865/dberli2/Final2/SFML-2.1/include/SFML/Graphics
+END
+RenderStates.hpp
+K 25
+svn:wc:ra_dav:version-url
+V 93
+/svn/fa13-cs242/!svn/ver/11865/dberli2/Final2/SFML-2.1/include/SFML/Graphics/RenderStates.hpp
+END
+Font.hpp
+K 25
+svn:wc:ra_dav:version-url
+V 85
+/svn/fa13-cs242/!svn/ver/11865/dberli2/Final2/SFML-2.1/include/SFML/Graphics/Font.hpp
+END
+Shader.hpp
+K 25
+svn:wc:ra_dav:version-url
+V 87
+/svn/fa13-cs242/!svn/ver/11865/dberli2/Final2/SFML-2.1/include/SFML/Graphics/Shader.hpp
+END
+Sprite.hpp
+K 25
+svn:wc:ra_dav:version-url
+V 87
+/svn/fa13-cs242/!svn/ver/11865/dberli2/Final2/SFML-2.1/include/SFML/Graphics/Sprite.hpp
+END
+RenderWindow.hpp
+K 25
+svn:wc:ra_dav:version-url
+V 93
+/svn/fa13-cs242/!svn/ver/11865/dberli2/Final2/SFML-2.1/include/SFML/Graphics/RenderWindow.hpp
+END
+PrimitiveType.hpp
+K 25
+svn:wc:ra_dav:version-url
+V 94
+/svn/fa13-cs242/!svn/ver/11865/dberli2/Final2/SFML-2.1/include/SFML/Graphics/PrimitiveType.hpp
+END
+View.hpp
+K 25
+svn:wc:ra_dav:version-url
+V 85
+/svn/fa13-cs242/!svn/ver/11865/dberli2/Final2/SFML-2.1/include/SFML/Graphics/View.hpp
+END
+Transform.hpp
+K 25
+svn:wc:ra_dav:version-url
+V 90
+/svn/fa13-cs242/!svn/ver/11865/dberli2/Final2/SFML-2.1/include/SFML/Graphics/Transform.hpp
+END
+VertexArray.hpp
+K 25
+svn:wc:ra_dav:version-url
+V 92
+/svn/fa13-cs242/!svn/ver/11865/dberli2/Final2/SFML-2.1/include/SFML/Graphics/VertexArray.hpp
+END
+Vertex.hpp
+K 25
+svn:wc:ra_dav:version-url
+V 87
+/svn/fa13-cs242/!svn/ver/11865/dberli2/Final2/SFML-2.1/include/SFML/Graphics/Vertex.hpp
+END
+Color.hpp
+K 25
+svn:wc:ra_dav:version-url
+V 86
+/svn/fa13-cs242/!svn/ver/11865/dberli2/Final2/SFML-2.1/include/SFML/Graphics/Color.hpp
+END
+Export.hpp
+K 25
+svn:wc:ra_dav:version-url
+V 87
+/svn/fa13-cs242/!svn/ver/11865/dberli2/Final2/SFML-2.1/include/SFML/Graphics/Export.hpp
+END
+Drawable.hpp
+K 25
+svn:wc:ra_dav:version-url
+V 89
+/svn/fa13-cs242/!svn/ver/11865/dberli2/Final2/SFML-2.1/include/SFML/Graphics/Drawable.hpp
+END
+Image.hpp
+K 25
+svn:wc:ra_dav:version-url
+V 86
+/svn/fa13-cs242/!svn/ver/11865/dberli2/Final2/SFML-2.1/include/SFML/Graphics/Image.hpp
+END
+CircleShape.hpp
+K 25
+svn:wc:ra_dav:version-url
+V 92
+/svn/fa13-cs242/!svn/ver/11865/dberli2/Final2/SFML-2.1/include/SFML/Graphics/CircleShape.hpp
+END
+Glyph.hpp
+K 25
+svn:wc:ra_dav:version-url
+V 86
+/svn/fa13-cs242/!svn/ver/11865/dberli2/Final2/SFML-2.1/include/SFML/Graphics/Glyph.hpp
+END
+ConvexShape.hpp
+K 25
+svn:wc:ra_dav:version-url
+V 92
+/svn/fa13-cs242/!svn/ver/11865/dberli2/Final2/SFML-2.1/include/SFML/Graphics/ConvexShape.hpp
+END
+Text.hpp
+K 25
+svn:wc:ra_dav:version-url
+V 85
+/svn/fa13-cs242/!svn/ver/11865/dberli2/Final2/SFML-2.1/include/SFML/Graphics/Text.hpp
+END
+RectangleShape.hpp
+K 25
+svn:wc:ra_dav:version-url
+V 95
+/svn/fa13-cs242/!svn/ver/11865/dberli2/Final2/SFML-2.1/include/SFML/Graphics/RectangleShape.hpp
+END
+RenderTarget.hpp
+K 25
+svn:wc:ra_dav:version-url
+V 93
+/svn/fa13-cs242/!svn/ver/11865/dberli2/Final2/SFML-2.1/include/SFML/Graphics/RenderTarget.hpp
+END
+Rect.inl
+K 25
+svn:wc:ra_dav:version-url
+V 85
+/svn/fa13-cs242/!svn/ver/11865/dberli2/Final2/SFML-2.1/include/SFML/Graphics/Rect.inl
+END
+BlendMode.hpp
+K 25
+svn:wc:ra_dav:version-url
+V 90
+/svn/fa13-cs242/!svn/ver/11865/dberli2/Final2/SFML-2.1/include/SFML/Graphics/BlendMode.hpp
+END
+Rect.hpp
+K 25
+svn:wc:ra_dav:version-url
+V 85
+/svn/fa13-cs242/!svn/ver/11865/dberli2/Final2/SFML-2.1/include/SFML/Graphics/Rect.hpp
+END
+Transformable.hpp
+K 25
+svn:wc:ra_dav:version-url
+V 94
+/svn/fa13-cs242/!svn/ver/11865/dberli2/Final2/SFML-2.1/include/SFML/Graphics/Transformable.hpp
+END
+RenderTexture.hpp
+K 25
+svn:wc:ra_dav:version-url
+V 94
+/svn/fa13-cs242/!svn/ver/11865/dberli2/Final2/SFML-2.1/include/SFML/Graphics/RenderTexture.hpp
+END
+Shape.hpp
+K 25
+svn:wc:ra_dav:version-url
+V 86
+/svn/fa13-cs242/!svn/ver/11865/dberli2/Final2/SFML-2.1/include/SFML/Graphics/Shape.hpp
+END
+Texture.hpp
+K 25
+svn:wc:ra_dav:version-url
+V 88
+/svn/fa13-cs242/!svn/ver/11865/dberli2/Final2/SFML-2.1/include/SFML/Graphics/Texture.hpp
+END
