@@ -7,47 +7,65 @@
 		<paddleW>150</paddleW>
 		<textr>255</textr> <textg>255</textg> <textb>255</textb>
 		<blocks>
-			<block img="img/pieces.png" x="95" y="112" w="80" h="17" xpos="215" ypos="115" />
-			<block img="img/pieces.png" x="192" y="320" w="80" h="17" xpos="375" ypos="115" />
-			<block img="img/pieces.png" x="95" y="112" w="80" h="17" xpos="535" ypos="115" />
+			<block img="img/pieces.png" xpos="110" ypos="157" w="80" h="16" x="1056" y="657" />
+			<!--<block img="img/pieces.png" x="95" y="112" w="80" h="17" xpos="50" ypos="10" />
+			<block img="img/pieces.png" x="95" y="112" w="80" h="17" xpos="130" ypos="10" />
+			<block img="img/pieces.png" x="95" y="112" w="80" h="17" xpos="210" ypos="10" />
+			<block img="img/pieces.png" x="95" y="112" w="80" h="17" xpos="290" ypos="10" />
+			<block img="img/pieces.png" x="95" y="112" w="80" h="17" xpos="370" ypos="10" />
+			<block img="img/pieces.png" x="95" y="112" w="80" h="17" xpos="450" ypos="10" />
 
-			<block img="img/pieces.png" x="480" y="176" w="80" h="17" xpos="295" ypos="132" />
-			<block img="img/pieces.png" x="480" y="176" w="80" h="17" xpos="455" ypos="132" />
-		
-			<block img="img/pieces.png" x="95" y="112" w="80" h="17" xpos="215" ypos="149" />
-			<block img="img/pieces.png" x="192" y="320" w="80" h="17" xpos="375" ypos="149" />
-			<block img="img/pieces.png" x="95" y="112" w="80" h="17" xpos="535" ypos="149" />
-			
-			<block img="img/pieces.png" x="480" y="176" w="80" h="17" xpos="295" ypos="166" />
-			<block img="img/pieces.png" x="480" y="176" w="80" h="17" xpos="455" ypos="166" />
-		
-			<block img="img/pieces.png" x="95" y="112" w="80" h="17" xpos="215" ypos="183" />
-			<block img="img/pieces.png" x="192" y="320" w="80" h="17" xpos="375" ypos="183" />
-			<block img="img/pieces.png" x="95" y="112" w="80" h="17" xpos="535" ypos="183" />
-		
-			<block img="img/pieces.png" x="480" y="176" w="80" h="17" xpos="295" ypos="200" />
-			<block img="img/pieces.png" x="480" y="176" w="80" h="17" xpos="455" ypos="200" />
+
+			<block img="img/pieces.png" xpos="110" ypos="208" w="80" h="17" x="864" y="208" />
+			<block img="img/pieces.png" xpos="300" ypos="193" w="80" h="17" x="960" y="592" />
+			<block img="img/pieces.png" xpos="220" ypos="200" w="80" h="17" x="576" y="656" />
+			<block img="img/pieces.png" xpos="10" ypos="112" w="80" h="17" x="95" y="111" /> -->
 		</blocks>
 	</level>
 	
 	<level>
 		<balls>3</balls>
 		<width>800</width><height>600</height>
-		<background>img/lvl2bg.jpg</background>
+		<background>img/lvl1bg.jpg</background>
 		<paddleH>50</paddleH>
 		<paddleW>150</paddleW>
 		<textr>255</textr> <textg>255</textg> <textb>255</textb>
 		<blocks>
-			<block img="img/pieces.png" x="864" y="592" w="80" h="17" xpos="200" ypos="115" />
-			<block img="img/pieces.png" x="864" y="592" w="80" h="17" xpos="280" ypos="132" />
-			<block img="img/pieces.png" x="192" y="560" w="80" h="17" xpos="360" ypos="149" />
-			<block img="img/pieces.png" x="864" y="448" w="80" h="17" xpos="440" ypos="166" />
-			<block img="img/pieces.png" x="864" y="448" w="80" h="17" xpos="520" ypos="183" />
+			<block img="img/pieces.png" x="95" y="112" w="80" h="17" xpos="215" ypos="15" />
+			<!--<block img="img/pieces.png" x="95" y="112" w="80" h="17" xpos="295" ypos="15" />
+			<block img="img/pieces.png" x="95" y="112" w="80" h="17" xpos="375" ypos="15" />
+			<block img="img/pieces.png" x="95" y="112" w="80" h="17" xpos="455" ypos="15" />
+			<block img="img/pieces.png" x="95" y="112" w="80" h="17" xpos="535" ypos="15" />
 
-			<block img="img/pieces.png" x="864" y="592" w="80" h="17" xpos="520" ypos="115" />
-			<block img="img/pieces.png" x="864" y="592" w="80" h="17" xpos="440" ypos="132" />
-			<block img="img/pieces.png" x="864" y="448" w="80" h="17" xpos="280" ypos="166" />
-			<block img="img/pieces.png" x="864" y="448" w="80" h="17" xpos="200" ypos="183" />
+			<block img="img/pieces.png" x="95" y="112" w="80" h="17" xpos="215" ypos="32" />
+			<block img="img/pieces.png" x="95" y="112" w="80" h="17" xpos="295" ypos="32" />
+			<block img="img/pieces.png" x="95" y="112" w="80" h="17" xpos="375" ypos="32" />
+			<block img="img/pieces.png" x="95" y="112" w="80" h="17" xpos="455" ypos="32" />
+			<block img="img/pieces.png" x="95" y="112" w="80" h="17" xpos="535" ypos="32" />
+		
+			<block img="img/pieces.png" x="95" y="112" w="80" h="17" xpos="215" ypos="49" />
+			<block img="img/pieces.png" x="95" y="112" w="80" h="17" xpos="295" ypos="49" />
+			<block img="img/pieces.png" x="95" y="112" w="80" h="17" xpos="375" ypos="49" />
+			<block img="img/pieces.png" x="95" y="112" w="80" h="17" xpos="455" ypos="49" />
+			<block img="img/pieces.png" x="95" y="112" w="80" h="17" xpos="535" ypos="49" />
+			
+			<block img="img/pieces.png" x="95" y="112" w="80" h="17" xpos="215" ypos="66" />
+			<block img="img/pieces.png" x="95" y="112" w="80" h="17" xpos="295" ypos="66" />
+			<block img="img/pieces.png" x="95" y="112" w="80" h="17" xpos="375" ypos="66" />
+			<block img="img/pieces.png" x="95" y="112" w="80" h="17" xpos="455" ypos="66" />
+			<block img="img/pieces.png" x="95" y="112" w="80" h="17" xpos="535" ypos="66" />
+		
+			<block img="img/pieces.png" x="95" y="112" w="80" h="17" xpos="215" ypos="83" />
+			<block img="img/pieces.png" x="95" y="112" w="80" h="17" xpos="295" ypos="83" />
+			<block img="img/pieces.png" x="95" y="112" w="80" h="17" xpos="375" ypos="83" />
+			<block img="img/pieces.png" x="95" y="112" w="80" h="17" xpos="455" ypos="83" />
+			<block img="img/pieces.png" x="95" y="112" w="80" h="17" xpos="535" ypos="83" />
+		
+			<block img="img/pieces.png" x="95" y="112" w="80" h="17" xpos="215" ypos="100" />
+			<block img="img/pieces.png" x="95" y="112" w="80" h="17" xpos="295" ypos="100" />
+			<block img="img/pieces.png" x="95" y="112" w="80" h="17" xpos="375" ypos="100" />
+			<block img="img/pieces.png" x="95" y="112" w="80" h="17" xpos="455" ypos="100" />
+			<block img="img/pieces.png" x="95" y="112" w="80" h="17" xpos="535" ypos="100" /> -->
 		</blocks>
 	</level>
 </levels>

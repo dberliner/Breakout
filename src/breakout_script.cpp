@@ -17,16 +17,8 @@
 using namespace std;
 using namespace rapidxml;
 
-enum MODE { GAME, MENU, TRANSITION, EXIT };
+enum MODE { GAME, MENU, TRANSITION };
 
-/*---------------------
-Function name: isClickInRect
-Purpose: Decides if a click happened within the bounds of a rectangle
-Paramaters: 
-	sf::Vector2i The x,y coordinates of the click
-	sf::Rect<int> box The rectangle to check
-Returns: true if it has access, false if it does not
----------------------*/
 bool isClickInRect(sf::Vector2i click, sf::Rect<int> box){
 	if(
 			click.x >= box.left && click.x < box.left+box.width && 
@@ -42,27 +34,20 @@ void breakoutGame(){
 	font.loadFromFile("fnt/Arcade.ttf");
 	
 	sf::RenderWindow window(sf::VideoMode(600, 400), "Breakout!");
-
-	//Set up the text
+	
 	Game game;
 	sf::Text ballsText("Score: 0", font);
 	sf::Text scoreText("Score: 0", font);
 	sf::Text playText("Play!", font);
 	sf::Text loadText("Load Game", font);
-	sf::Text exitText("Exit",font);
 
-	///Set up some game variables
 	sf::Clock clock;
 	float tmpTime,aggTime;
 	float totalTime=0;
 	int loopCount=0;
-
 	stringstream scoreStr,ballsStr;
-
-	//Set up the menu
 	sf::Rect<int> start;
 	sf::Rect<int> load;
-	sf::Rect<int> exit;
 
 	//Define the buttons as rects for easy access later on
 	start.left=100; start.top=100;
@@ -70,9 +55,6 @@ void breakoutGame(){
 
 	load.left=100; load.top=160;
 	load.width=190; load.height=50;
-
-	exit.left=100; exit.top=220;
-	exit.width=120; exit.height=50;
 
 	playText.setPosition(start.left+10,start.top+10);
 	playText.setCharacterSize(30);
@@ -84,21 +66,12 @@ void breakoutGame(){
 	loadText.setStyle(sf::Text::Bold);
 	loadText.setColor(sf::Color::Red);
 
-	exitText.setPosition(exit.left+10,exit.top+10);
-	exitText.setCharacterSize(30);
-	exitText.setStyle(sf::Text::Bold);
-	exitText.setColor(sf::Color::Red);
-	
 	sf::RectangleShape startButton(sf::Vector2f(start.width, start.height));
 	startButton.setPosition(start.left,start.top);
 	
 	sf::RectangleShape loadButton(sf::Vector2f(load.width, load.height));
 	loadButton.setPosition(load.left,load.top);
-
-	sf::RectangleShape exitButton(sf::Vector2f(exit.width, exit.height));
-	exitButton.setPosition(exit.left,exit.top);
-
-	//Set up the loading background
+	
 	sf::RectangleShape loadingBG(sf::Vector2f(600,400));
 	sf::Texture loadingTex;
 	loadingTex.loadFromFile("img/loading.jpg");
@@ -107,23 +80,21 @@ void breakoutGame(){
 
 	string file="";
 	
-	//Main game loop, implimented as a state machine
-	while (window.isOpen()){
+	while (window.isOpen())
+	{
 		if(mode==MENU){
 			sf::Event event;
-			while (window.pollEvent(event)){
+			while (window.pollEvent(event))
+			{
 				if (event.type == sf::Event::Closed)
 					window.close();
-				//If the mouse was clicked
 				if (sf::Mouse::isButtonPressed(sf::Mouse::Left)){
-					//Check if the click happened in any given box
 					sf::Vector2i pos=sf::Mouse::getPosition(window);
 					if(isClickInRect(pos,start)){
 						file="Default.bgm";
 						mode=TRANSITION;
 					}
-					else if(isClickInRect(pos,load)){
-						//Run the python script to load the file
+					if(isClickInRect(pos,load)){
 						system("python file.py");
 						ifstream in;
 						in.open("~LoadFilePath");
@@ -132,36 +103,24 @@ void breakoutGame(){
 						}
 						in.close();
 						remove("~LoadFilePath");
-						if(file!="")
-							mode=TRANSITION;
-					}
-					else if(isClickInRect(pos,exit)){
-						mode=EXIT;
+						mode=TRANSITION;
 					}
 				}
 			}
-			//Draw the menu boxes and text
 			window.clear();
 			window.draw(startButton);
 			window.draw(loadButton);
-			window.draw(exitButton);
 			window.draw(loadText);
 			window.draw(playText);
-			window.draw(exitText);
 			window.display();
 		}
-		//Transition to the game
 		if(mode==TRANSITION){
-			//Draw the loading screen
 			window.clear();
 			window.draw(loadingBG);
 			window.display();
 			sleep(1.5);
 			
-			//Actually load the game
 			game.loadGame(file);
-
-			//Set up the text for the game
 			scoreText.setCharacterSize(30);
 			scoreText.setStyle(sf::Text::Bold);
 			scoreText.setColor(game.getTextColor());
@@ -172,17 +131,10 @@ void breakoutGame(){
 			ballsText.setColor(game.getTextColor());
 			ballsText.setPosition(10,550);
 
-			//Open the window
 			window.create(sf::VideoMode(game.getWidth(), game.getHeight()), "Breakout!");
-			//Switch to the game state next loop
 			mode=GAME;
 			
 		}
-		if(mode==EXIT){
-			window.close();
-		}
-
-		//The actual game
 		if(mode==GAME){
 			//Update score text
 			if(game.getScore()!=tmpScore){
@@ -215,7 +167,7 @@ void breakoutGame(){
 			}
 
 			//Draw if it has been more than 1/60 of a second
-			if(aggTime > 0.02){
+			if(aggTime > 0.03333){
 				aggTime=0;
 				window.clear();
 				game.drawBG(&window);
